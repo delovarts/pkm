@@ -1,0 +1,195 @@
+
+:root {
+	--main-color: #18978F;
+	--color-dark: #fff;
+	--text-grey: black;
+}
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+.wrap{
+	height: 150vh;
+	width: 100%;
+	background-color: #fff;
+}
+.sidebar {
+	width: 270px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background: var(--main-color);
+}
+.sidebar img{
+	margin-right: 20px;
+	margin-left: 40px;
+}
+.sidebar-brand {
+	padding-top: 20px;
+	height: 90px;
+	color: #FEFFDE;
+}
+.sidebar-brand span{
+	display: inline-block;
+	padding-right: 1rem; 
+}
+.sidebar-menu {
+	margin-top: 1rem;
+}
+.sidebar ul{
+	padding: 0;
+	margin: 0;
+}
+.sidebar-menu li{
+	font-size: 24px;
+	padding: 10px 0px;
+	color: white;
+	display: flex;
+	align-items: left;
+	border-radius: 1rem;
+}
+.sidebar-menu li:hover{
+	background: black;
+}
+.sidebar-menu a{
+	padding-left: 0rem;
+	display: block;
+	color: #FEFFDE;
+	font-size: 1.1rem;
+	text-decoration: none;
+	padding-left: 40px;
+}
+.sidebar-menu a.active{
+	background: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: var(--main-color);
+	border-radius: 10px 0px 0px 10px; 
+}
+.sidebar-menu a span: first-child{
+	font-size: 1.5rem;
+	padding-right: 1rem;
+
+}
+.main-content{
+	margin-left: 275px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	background: white;
+	box-shadow: 12px 8px 5px rgba(0,0,0,0.2);
+}
+
+.user-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.user-wrapper img {
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+.user-wrapper small {
+	display: inline-block;
+	color: var(--text-grey);
+}
+.tabel{
+	text-align: center;
+	align-items: center;
+	padding: 1rem;
+	background: #fff;
+	box-shadow: 2px 8px 5px rgba(0,0,0,0.2);
+}table{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th,td{
+	border: 1px solid black;
+	padding: 3px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
+}
+
+li{
+	list-style: none;
+}
+.disabled{
+	cursor: not-allowed;
+}
+.pagination{
+	margin-top: 30px;
+	padding: 0;
+}
+.pagination .page-item{
+	display: inline;
+}
+.pagination .page-item .page-link{
+	background: #B6FFCE;
+	color: black;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 25%;
+}
+textarea{
+	border: 2px solid var(--main-color);
+	border-radius: 5px;
+}
+select{
+	border: 2px solid var(--main-color);
+	border-radius: 5px;
+	padding: 5px;
+
+}
+input{
+	padding: 8px 5px;
+	border: 2px solid var(--main-color);
+	border-radius: 5px;
+}
+.form table{
+	border: none !important;
+	margin-top: 30px;
+}
+.form th,.form td{
+	box-shadow: none !important;
+	border: none !important;
+}
+.submit{
+	cursor: pointer;
+	border: none !important;
+	background: var(--main-color);
+	color: #FEFFDE;
+}
+.tambah-data{
+	cursor: pointer;
+	border: none !important;
+	background: var(--main-color);
+	border: 5px solid black;
+	padding: 3px;
+	color: white;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	border-radius: 5%;
+}
+.form-cari{
+	text-align: center;
+	align-items: center;
+	padding: 1rem;
+}
+.submit.form{
+	margin-top: 20px; margin-right: 20px ;
+}
+.btn-form{
+	padding: 7px; text-decoration: none; border-radius: 5px; color: black; background: #91C788;
+}
+#registrasi .box.bg-white, #login .box.bg-white{
+	margin-top: 100px !important;
+}
+#registrasi .box h3{
+	margin-bottom: 20px !important;
+}
